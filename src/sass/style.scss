@@ -8,6 +8,7 @@
 
 @import "_vars";
 @import "_main";
+@import "_nav";
 @import "_interface";
 
 a, input, button, textarea {
@@ -21,7 +22,7 @@ a, input, button, textarea {
   }
 }
 
-body{
+body {
   font-family: $monts;
 }
 
