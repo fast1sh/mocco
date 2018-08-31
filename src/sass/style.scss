@@ -1,0 +1,31 @@
+@font-face {
+  font-family: 'Segoe Script';
+  src: url("SegoeScript.eot");
+  src: url("SegoeScript.eot?#iefix") format("embedded-opentype"), url("SegoeScript.woff2") format("woff2"), url("SegoeScript.woff") format("woff"), url("SegoeScript.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import "_vars";
+@import "_main";
+@import "_interface";
+
+a, input, button, textarea {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+body{
+  font-family: $monts;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}

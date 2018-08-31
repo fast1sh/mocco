@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Segoe Script';
+  src: url("SegoeScript.eot");
+  src: url("SegoeScript.eot?#iefix") format("embedded-opentype"), url("SegoeScript.woff2") format("woff2"), url("SegoeScript.woff") format("woff"), url("SegoeScript.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.main {
+  padding-top: 60px;
+  padding-bottom: 425px;
+  background: url("../img/main/main-bg.jpg") center no-repeat;
+}
+
+.main-nav {
+  margin-bottom: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.main-nav__icon {
+  display: none;
+}
+
+.main-nav__logo {
+  display: block;
+  background: url("../img/logo.png") center no-repeat;
+  height: 37px;
+  width: 177px;
+}
+
+.main-nav__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 37px;
+}
+
+.main-nav__menu-link {
+  margin-right: 30px;
+  color: #222222;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.main-block .section-title {
+  margin-bottom: 25px;
+}
+
+.main-block .section-subtitle {
+  margin-bottom: 40px;
+  font-size: 41px;
+}
+
+.main-block .section-subtitle p {
+  padding-top: 22px;
+  font-size: 28px;
+}
+
+.button {
+  padding: 13px 33px;
+  border-radius: 6px;
+  background-color: #ef5b5b;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #f17272;
+}
+
+.section-title {
+  margin-bottom: 10px;
+  font-family: "Segoe Script", sans-serif;
+  font-size: 28px;
+  color: #ef5b5b;
+}
+
+.section-subtitle {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+a,
+input,
+button,
+textarea {
+  outline: none;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-decoration: none;
+}
+
+a:focus,
+input:focus,
+button:focus,
+textarea:focus {
+  outline: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}

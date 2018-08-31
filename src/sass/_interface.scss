@@ -1,0 +1,26 @@
+.button {
+  padding: 13px 33px;
+  border-radius: 6px;
+  background-color: $main;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: $bold;
+  text-transform: uppercase;
+  transition: 0.2s;
+  &:hover{
+    cursor: pointer;
+    background-color: lighten($main, 5%);
+  }
+}
+.section{
+  &-title{
+    margin-bottom: 10px;
+    font-family: $segoe;
+    font-size: 28px;
+    color: $main;
+  }
+  &-subtitle{
+    font-size: 28px;
+    font-weight: $bold;
+  }
+}
