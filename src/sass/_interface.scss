@@ -7,20 +7,36 @@
   font-weight: $bold;
   text-transform: uppercase;
   transition: 0.2s;
-  &:hover{
+
+  &:hover {
     cursor: pointer;
     background-color: lighten($main, 5%);
   }
 }
-.section{
-  &-title{
+
+.section {
+  &-title {
     margin-bottom: 10px;
     font-family: $segoe;
     font-size: 28px;
     color: $main;
   }
-  &-subtitle{
+
+  &-subtitle {
     font-size: 28px;
     font-weight: $bold;
+  }
+}
+
+.fixed {
+  margin-top: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  background-color: rgba($color: #fff, $alpha: 0.3);
+
+  &-main {
+    margin-top: 0;
   }
 }

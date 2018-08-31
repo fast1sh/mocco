@@ -1,46 +1,18 @@
 .main {
-  padding-top: 60px;
+  margin-top: -102px;
+  padding-top: 320px;
   padding-bottom: 425px;
   background: url(../img/main/main-bg.jpg) center no-repeat;
 
-  &-nav {
-    margin-bottom: 220px;
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-
-    &__icon {
-      display: none;
-    }
-
-    &__logo {
-      display: block;
-      background: url(../img/logo.png) center no-repeat;
-      height: 37px;
-      width: 177px;
-    }
-
-    &__menu {
-      display: flex;
-      line-height: 37px;
-
-      &-link {
-        margin-right: 30px;
-        color: $black;
-        font-size: 14px;
-        text-transform: uppercase;
-        font-weight: $bold;
-      }
-    }
-  }
-  &-block{
-    .section-title{
+  &-block {
+    .section-title {
       margin-bottom: 25px;
     }
-    .section-subtitle{
+
+    .section-subtitle {
       margin-bottom: 40px;
       font-size: 41px;
+
       p {
         padding-top: 22px;
         font-size: 28px;

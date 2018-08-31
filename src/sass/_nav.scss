@@ -1,0 +1,35 @@
+.nav {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  transition: background-color 0.4s;
+
+  &-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__icon {
+    display: none;
+  }
+
+  &__logo {
+    display: block;
+    background: url(../img/logo.png) center no-repeat;
+    height: 37px;
+    width: 177px;
+  }
+
+  &__menu {
+    display: flex;
+    line-height: 37px;
+
+    &-link {
+      margin-right: 30px;
+      color: $black;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: $bold;
+    }
+  }
+}
