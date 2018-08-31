@@ -5,10 +5,7 @@
 
   &-nav {
     margin-bottom: 220px;
-    display: flex;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
+    position: absolute;
 
     &__icon {
       display: none;
@@ -47,4 +44,9 @@
       }
     }
   }
+}
+
+.nav-wrap{
+  display: flex;
+  justify-content: space-between;
 }
