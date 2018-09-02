@@ -1,0 +1,60 @@
+.convenience {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  background-color: #f0efef;
+
+  .section {
+    &-subtitle {
+      margin-bottom: 70px;
+    }
+  }
+
+  &-slider {
+    position: relative;
+
+    &__arrow {
+      font-size: 25px;
+      background-color: transparent;
+      color: $main;
+      cursor: pointer;
+      transition: 0.2s;
+      position: absolute;
+      top: 45%;
+
+      &:hover {
+        color: lighten($main, 5%);
+      }
+    }
+
+    &__prev {
+      left: -5%;
+    }
+
+    &__next {
+      right: -5%;
+    }
+
+    &__block {
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 54px 17px;
+      border: 1px solid #cbcbcb;
+      background-color: #fff;
+
+      &-icon {
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        min-height: 69px;
+      }
+
+      .section {
+        &-subtitle {
+          margin-bottom: 20px;
+          font-size: 24px;
+        }
+      }
+    }
+  }
+}
