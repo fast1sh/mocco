@@ -70,6 +70,10 @@
   font-weight: 600;
 }
 
+.nav__menu-link:hover {
+  color: #ef5b5b;
+}
+
 .button {
   padding: 13px 33px;
   border-radius: 6px;
