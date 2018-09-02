@@ -99,6 +99,13 @@
   font-weight: 600;
 }
 
+.section-descr {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #808080;
+  line-height: 28px;
+}
+
 .fixed {
   margin-top: 0;
   position: fixed;
@@ -110,6 +117,112 @@
 
 .fixed-main {
   margin-top: 0;
+}
+
+.features {
+  padding-top: 80px;
+  padding-bottom: 165px;
+  position: relative;
+}
+
+.features .section-subtitle {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.features .section-subtitle::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 4px;
+  left: -8px;
+  width: 2px;
+  height: 20px;
+  background-color: #ef5b5b;
+}
+
+.features .section-descr {
+  margin-bottom: 35px;
+}
+
+.features-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features-main {
+  text-align: left;
+  max-width: 250px;
+}
+
+.features-main__button {
+  padding: 20px 40px;
+}
+
+.features-block {
+  text-align: center;
+  padding-top: 425px;
+  border-radius: 6px;
+  position: absolute;
+  top: -20%;
+  padding-top: 425px;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(33, 30, 31, 0.2);
+  box-shadow: 0px 1px 1px 0px rgba(33, 30, 31, 0.2);
+}
+
+.features-block_first {
+  background: #fff url("../img/features/card-1.jpg") top no-repeat;
+  left: 35%;
+}
+
+.features-block_second {
+  background: #fff url("../img/features/card-2.jpg") top no-repeat;
+  left: 55%;
+}
+
+.features-block_third {
+  background: #fff url("../img/features/card-3.jpg") top no-repeat;
+  left: 75%;
+}
+
+.features-block__title {
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.features-block__wrap {
+  padding: 15px 15px 13px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border-top: 2px solid #d6d6d6;
+}
+
+.features-block__rating {
+  margin-right: 70px;
+  line-height: 28px;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+
+.features-block__rating-star {
+  color: #ef5b5b;
+}
+
+.features-block__rating-star:first-child {
+  margin-left: 8px;
+}
+
+.features-block__button {
+  text-transform: none;
+  font-size: 14px;
+  padding: 6px 22px;
 }
 
 a,
