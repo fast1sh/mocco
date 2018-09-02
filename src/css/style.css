@@ -225,6 +225,68 @@
   padding: 6px 22px;
 }
 
+.convenience {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  text-align: center;
+  background-color: #f0efef;
+}
+
+.convenience .section-subtitle {
+  margin-bottom: 70px;
+}
+
+.convenience-slider {
+  position: relative;
+}
+
+.convenience-slider__arrow {
+  font-size: 25px;
+  background-color: transparent;
+  color: #ef5b5b;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  position: absolute;
+  top: 45%;
+}
+
+.convenience-slider__arrow:hover {
+  color: #f17272;
+}
+
+.convenience-slider__prev {
+  left: -5%;
+}
+
+.convenience-slider__next {
+  right: -5%;
+}
+
+.convenience-slider__block {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 54px 17px;
+  border: 1px solid #cbcbcb;
+  background-color: #fff;
+}
+
+.convenience-slider__block-icon {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 69px;
+}
+
+.convenience-slider__block .section-subtitle {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
 a,
 input,
 button,
