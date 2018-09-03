@@ -291,6 +291,49 @@
   font-size: 24px;
 }
 
+.choice {
+  text-align: center;
+  background-color: #f0efef;
+  padding-bottom: 120px;
+}
+
+.choice .section-subtitle {
+  margin-bottom: 70px;
+}
+
+.choice-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.choice-block {
+  margin-bottom: 30px;
+  padding: 28px;
+  text-align: left;
+  background-color: #fff;
+  -ms-flex-preferred-size: 515px;
+  flex-basis: 515px;
+  -webkit-box-shadow: 0px 1px 1px 0px rgba(33, 30, 31, 0.15);
+  box-shadow: 0px 1px 1px 0px rgba(33, 30, 31, 0.15);
+}
+
+.choice-block__title {
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #00b1ff;
+}
+
+.choice-block .section-descr {
+  max-width: 455px;
+}
+
 a,
 input,
 button,

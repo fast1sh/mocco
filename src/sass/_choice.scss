@@ -1,0 +1,35 @@
+.choice {
+  text-align: center;
+  background-color: #f0efef;
+  padding-bottom: 120px;
+
+  .section-subtitle {
+    margin-bottom: 70px;
+  }
+
+  &-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  &-block {
+    margin-bottom: 30px;
+    padding: 28px;
+    text-align: left;
+    background-color: #fff;
+    flex-basis: 515px;
+    box-shadow: 0px 1px 1px 0px rgba(33, 30, 31, 0.15);
+
+    &__title {
+      margin-bottom: 25px;
+      font-size: 24px;
+      font-weight: $bold;
+      color: $blue;
+    }
+
+    .section-descr {
+      max-width: 455px;
+    }
+  }
+}
