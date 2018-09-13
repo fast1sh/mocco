@@ -20,3 +20,11 @@ $('.convenience-slider').slick({
   prevArrow: '<button class="convenience-slider__prev convenience-slider__arrow"><i class="fas fa-chevron-circle-left"></i></button>',
   nextArrow: '<button class="convenience-slider__next convenience-slider__arrow"><i class="fas fa-chevron-circle-right"></i></button>'
 });
+
+$('.packages-slider').slick({
+  infinite: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  prevArrow: '<button class="convenience-slider__prev convenience-slider__arrow"><i class="fas fa-chevron-circle-left"></i></button>',
+  nextArrow: '<button class="convenience-slider__next convenience-slider__arrow"><i class="fas fa-chevron-circle-right"></i></button>'
+});
