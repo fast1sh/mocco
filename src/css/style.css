@@ -123,6 +123,17 @@
   margin-top: 0;
 }
 
+.selectboxit-container .selectboxit,
+.selectboxit-container .selectboxit-options,
+.selectboxit-option-first,
+.selectboxit-option-last {
+  border-radius: 0;
+}
+
+.iconsss {
+  background-color: #ef5b5b;
+}
+
 .features {
   padding-top: 80px;
   padding-bottom: 165px;
