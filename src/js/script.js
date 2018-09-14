@@ -29,7 +29,16 @@ $('.packages-slider').slick({
   nextArrow: '<button class="convenience-slider__next convenience-slider__arrow"><i class="fas fa-chevron-circle-right"></i></button>'
 });
 
-$("select").selectBoxIt({
-  showFirstOption: false,
-  theme: "jqueryui"
+$('.packages-form__select-first').ikSelect({
+  customClass: 'packages-form__select-first',
+  ddFullWidth: true
+});
+$('.packages-form__select-second').ikSelect({
+  customClass: 'packages-form__select-second'
+});
+$('.packages-form__select-third').ikSelect({
+  customClass: 'packages-form__select-third'
+});
+$('.packages-form__select-fourth').ikSelect({
+  customClass: 'packages-form__select-fourth'
 });

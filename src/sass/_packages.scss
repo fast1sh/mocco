@@ -11,7 +11,7 @@
     }
   }
 
-  .features-block__rating{
+  .features-block__rating {
     margin-right: 10px;
   }
 
@@ -52,14 +52,14 @@
         color: $blue;
         font-weight: $bold;
         position: relative;
-        &::before{
+
+        &::before {
           content: '$454';
           position: absolute;
           font-size: 14px;
           color: $main;
           top: -20px;
           left: 50%;
-
         }
       }
 
@@ -67,13 +67,14 @@
         text-align: right;
         font-size: 14px;
         font-weight: $bold;
-        &_star{
+
+        &_star {
           color: $main;
           font-size: 18px;
         }
       }
 
-      &-second{
+      &-second {
         max-width: 80px;
       }
 
@@ -96,6 +97,99 @@
       &_fifth {
         background: #fff url(../img/packages/card-5.jpg) top no-repeat;
       }
+    }
+  }
+
+  &-form {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: space-between;
+
+    &__select {
+      border: none;
+      border-right: solid 1px #b6b6b6;
+
+      &-first {
+        flex-grow: 4;
+
+        .ik_select_option_label {
+
+        }
+
+        &::before {
+          font-family: "Font Awesome 5 Free";
+          font-style: normal;
+          font-weight: 900;
+          content: "\f3c5";
+          color: $main;
+          font-size: 20px;
+          display: block;
+          pointer-events: none;
+          position: absolute;
+          left: 25px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+
+      &-second {
+        flex-grow: 3;
+
+        &::before {
+          font-family: "Font Awesome 5 Free";
+          font-style: normal;
+          font-weight: 400;
+          content: "\f271";
+          color: $main;
+          pointer-events: none;
+          font-size: 20px;
+          position: absolute;
+          left: 25px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+
+      &-third {
+        flex-grow: 3;
+
+        &::before {
+          font-family: "Font Awesome 5 Free";
+          font-style: normal;
+          font-weight: 400;
+          content: "\f272";
+          color: $main;
+          pointer-events: none;
+          font-size: 20px;
+          position: absolute;
+          left: 25px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+
+      &-fourth {
+        flex-grow: 2;
+
+        &::before {
+          font-family: "Font Awesome 5 Free";
+          font-style: normal;
+          font-weight: 900;
+          content: "\f007";
+          color: $main;
+          pointer-events: none;
+          font-size: 20px;
+          position: absolute;
+          left: 25px;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+
+    &__button {
+      border-radius: 0;
     }
   }
 }

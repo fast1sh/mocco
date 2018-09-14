@@ -123,15 +123,74 @@
   margin-top: 0;
 }
 
-.selectboxit-container .selectboxit,
-.selectboxit-container .selectboxit-options,
-.selectboxit-option-first,
-.selectboxit-option-last {
-  border-radius: 0;
+.ik_select {
+  height: 60px;
+  cursor: pointer;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
-.iconsss {
+.ik_select_link {
+  padding-left: 50px;
+  background-color: #fff;
+  border-right: 1px solid #b6b6b6;
+  height: 100%;
+}
+
+.ik_select_link:hover {
+  background-color: #ededed;
+}
+
+.ik_select_link_focus {
+  background-color: #ededed;
+}
+
+.ik_select_link_disabled {
+  /* Disabled state of the fake select */
+}
+
+.ik_select_link_text {
+  color: #808080;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: left;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ik_select_list {
   background-color: #ef5b5b;
+  width: 247px;
+}
+
+.ik_select_optgroup {
+  /* Optgroup */
+}
+
+.ik_select_optgroup_label {
+  /* Optgroup label */
+}
+
+.ik_select_hover {
+  background-color: #ededed;
+}
+
+.ik_select_active {
+  /* The active state of an option */
+}
+
+.ik_select_filter_wrap {
+  /* Wrapper for the filter input */
+}
+
+.ik_select_filter {
+  /* Filter input */
+}
+
+.ik_nothing_found {
+  /* Block that's shown when there's nothing found. */
 }
 
 .features {
@@ -444,6 +503,111 @@
 
 .packages-slider__block_fifth {
   background: #fff url("../img/packages/card-5.jpg") top no-repeat;
+}
+
+.packages-form {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.packages-form__select {
+  border: none;
+  border-right: solid 1px #b6b6b6;
+}
+
+.packages-form__select-first {
+  -webkit-box-flex: 4;
+  -ms-flex-positive: 4;
+  flex-grow: 4;
+}
+
+.packages-form__select-first::before {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  content: "\f3c5";
+  color: #ef5b5b;
+  font-size: 20px;
+  display: block;
+  pointer-events: none;
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.packages-form__select-second {
+  -webkit-box-flex: 3;
+  -ms-flex-positive: 3;
+  flex-grow: 3;
+}
+
+.packages-form__select-second::before {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  content: "\f271";
+  color: #ef5b5b;
+  pointer-events: none;
+  font-size: 20px;
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.packages-form__select-third {
+  -webkit-box-flex: 3;
+  -ms-flex-positive: 3;
+  flex-grow: 3;
+}
+
+.packages-form__select-third::before {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 400;
+  content: "\f272";
+  color: #ef5b5b;
+  pointer-events: none;
+  font-size: 20px;
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.packages-form__select-fourth {
+  -webkit-box-flex: 2;
+  -ms-flex-positive: 2;
+  flex-grow: 2;
+}
+
+.packages-form__select-fourth::before {
+  font-family: "Font Awesome 5 Free";
+  font-style: normal;
+  font-weight: 900;
+  content: "\f007";
+  color: #ef5b5b;
+  pointer-events: none;
+  font-size: 20px;
+  position: absolute;
+  left: 25px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.packages-form__button {
+  border-radius: 0;
 }
 
 a,
