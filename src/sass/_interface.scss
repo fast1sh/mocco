@@ -84,12 +84,12 @@
   text-overflow: ellipsis;
 }
 
-.ik_select_dropdown {
-}
+.ik_select_dropdown {}
 
 .ik_select_list {
-  background-color: $main;
-  width: 247px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 248px;
+  overflow: hidden;
 }
 
 .ik_select_optgroup {
@@ -100,13 +100,15 @@
   /* Optgroup label */
 }
 
-.ik_select_option {}
-
-.ik_select_option_label {
+.ik_select_option {
+  padding: 10px;
 }
 
+.ik_select_option_label {}
+
 .ik_select_hover {
-  background-color: darken(#fff, 7%);
+  background-color: $main;
+  cursor: pointer;
 }
 
 .ik_select_active {
@@ -114,13 +116,16 @@
 }
 
 .ik_select_filter_wrap {
-  /* Wrapper for the filter input */
+  padding: 15px;
+  border-bottom: 1px solid $gray;
 }
 
 .ik_select_filter {
-  /* Filter input */
+  padding: 10px;
+  border-radius: 4px;
+  font-family: $monts, sans-serif;
 }
 
 .ik_nothing_found {
-  /* Block that's shown when there's nothing found. */
+  padding: 20px;
 }

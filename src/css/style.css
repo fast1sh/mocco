@@ -161,8 +161,9 @@
 }
 
 .ik_select_list {
-  background-color: #ef5b5b;
-  width: 247px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 248px;
+  overflow: hidden;
 }
 
 .ik_select_optgroup {
@@ -173,8 +174,13 @@
   /* Optgroup label */
 }
 
+.ik_select_option {
+  padding: 10px;
+}
+
 .ik_select_hover {
-  background-color: #ededed;
+  background-color: #ef5b5b;
+  cursor: pointer;
 }
 
 .ik_select_active {
@@ -182,15 +188,18 @@
 }
 
 .ik_select_filter_wrap {
-  /* Wrapper for the filter input */
+  padding: 15px;
+  border-bottom: 1px solid #808080;
 }
 
 .ik_select_filter {
-  /* Filter input */
+  padding: 10px;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif, sans-serif;
 }
 
 .ik_nothing_found {
-  /* Block that's shown when there's nothing found. */
+  padding: 20px;
 }
 
 .features {
@@ -409,6 +418,7 @@
   padding-top: 145px;
   padding-bottom: 150px;
   background: #808080 url("../img/packages/bg.jpg") center no-repeat;
+  margin-bottom: 400px;
 }
 
 .packages .section-subtitle {

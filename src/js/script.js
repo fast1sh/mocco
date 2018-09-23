@@ -20,7 +20,7 @@ $('.convenience-slider').slick({
   prevArrow: '<button class="convenience-slider__prev convenience-slider__arrow"><i class="fas fa-chevron-circle-left"></i></button>',
   nextArrow: '<button class="convenience-slider__next convenience-slider__arrow"><i class="fas fa-chevron-circle-right"></i></button>'
 });
-
+// Packages slider
 $('.packages-slider').slick({
   infinite: true,
   slidesToShow: 3,
@@ -28,10 +28,10 @@ $('.packages-slider').slick({
   prevArrow: '<button class="convenience-slider__prev convenience-slider__arrow"><i class="fas fa-chevron-circle-left"></i></button>',
   nextArrow: '<button class="convenience-slider__next convenience-slider__arrow"><i class="fas fa-chevron-circle-right"></i></button>'
 });
-
+// Selects
 $('.packages-form__select-first').ikSelect({
   customClass: 'packages-form__select-first',
-  ddFullWidth: true
+  filter: true
 });
 $('.packages-form__select-second').ikSelect({
   customClass: 'packages-form__select-second'
@@ -40,5 +40,5 @@ $('.packages-form__select-third').ikSelect({
   customClass: 'packages-form__select-third'
 });
 $('.packages-form__select-fourth').ikSelect({
-  customClass: 'packages-form__select-fourth'
+  customClass: 'packages-form__select-fourth',
 });
